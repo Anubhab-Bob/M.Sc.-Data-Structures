@@ -1,5 +1,5 @@
 /*
-Problem Statement - Implementation of BFS on an Undirected, non-weighted graph
+Problem Statement - Implementation of BFS on an directed, non-weighted graph
 */
 
 #include <stdio.h>
