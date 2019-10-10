@@ -105,7 +105,7 @@ void accept_Console()
 	//Accepting the names of the vertices
 	for(i=0;i<v;i++)
 	{
-		printf("V%d : ", i+1);
+		printf("V%d : ",i+1);
 		scanf("%s", vertices[i]);
 	}
 	
