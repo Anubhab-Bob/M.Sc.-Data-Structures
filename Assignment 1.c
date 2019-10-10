@@ -241,7 +241,7 @@ void display()
 void main()
 {
 	//Declaring necessary variables
-	int i=0,j=0,input_choice,cont;
+	int input_choice,cont;
 	
 	while(1)
 	{
