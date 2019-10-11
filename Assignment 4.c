@@ -365,7 +365,8 @@ void main()
 		free(vertices);
 		free(visited);
 		free(marked);
-
+		dist=0;
+		
 		printf("\n\nDo you want to repeat? : 1:Yes\t2:No:\t");
 		scanf("%d",&cont);
 		if(cont!=1)
