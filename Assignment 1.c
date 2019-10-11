@@ -119,6 +119,11 @@ void accept_File()
 	
 	//Matrix Input from File
 	FILE* file = fopen ("graph.txt", "r");
+	if (file==NULL)
+	{
+		printf("File Not Found!\n");
+		return;
+	}
 	
 	//Accepting the number of nodes
 	fscanf (file, "%d", &v);
